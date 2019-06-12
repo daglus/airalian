@@ -27,7 +27,7 @@ ActiveRecord::Schema.define(version: 20190612075945) do
     t.boolean  "is_air"
     t.boolean  "is_heating"
     t.boolean  "is_internet"
-    t.integer  "prcie"
+    t.integer  "price"
     t.boolean  "active"
     t.integer  "user_id"
     t.datetime "created_at",   null: false
