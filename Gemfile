@@ -20,6 +20,9 @@ gem 'toastr-rails'
 gem 'omniauth'
 gem 'omniauth-facebook'
 
+gem 'sendgrid-rails', '~> 2.0', '>= 2.0.5'
+
+
 group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0'
