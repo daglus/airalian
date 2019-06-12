@@ -17,11 +17,13 @@ gem 'sass-rails', '>= 3.2'
 
 gem 'devise'
 gem 'toastr-rails'
+
 gem 'omniauth'
 gem 'omniauth-facebook'
 
 gem 'sendgrid-rails', '~> 2.0', '>= 2.0.5'
 
+gem 'paperclip'
 
 group :development, :test do
   gem 'byebug'
