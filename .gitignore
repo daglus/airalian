@@ -16,3 +16,6 @@
 !/log/.keep
 /tmp
 .env
+
+#ignore photo on local machine
+public/system/photos*
