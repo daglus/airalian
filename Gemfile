@@ -25,6 +25,8 @@ gem 'sendgrid-rails', '~> 2.0', '>= 2.0.5'
 
 gem 'paperclip'
 
+gem 'geocoder'
+
 group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0'
