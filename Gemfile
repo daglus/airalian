@@ -27,6 +27,8 @@ gem 'paperclip'
 
 gem 'geocoder'
 
+gem 'jquery-ui-rails'
+
 group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0'
