@@ -132,6 +132,13 @@ body {
   text-decoration: none;
 }
 
+label {
+  color: #565a5c;
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
 select {
   color: #565a5c;
   background-color: #fff;
@@ -212,4 +219,10 @@ input[type="checkbox"]:checked:before {
 
 .text-line-through {
   text-decoration: line-through
+}
+
+.reservation-table td {
+  width: 100%;
+  border: 1px solid #dce0e0;
+  padding: 10px;
 }
