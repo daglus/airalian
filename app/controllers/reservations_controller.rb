@@ -6,7 +6,7 @@ class ReservationsController < ApplicationController
 		today = Date.today
 		reservations = room.reservations.where("start_date >= ? OR end_date >= ?", today, today)
 
-		render json: reservations
+		render json: reservations	
 	end
 
 	def preview
@@ -24,6 +24,14 @@ class ReservationsController < ApplicationController
 		@reservation = current_user.reservations.create(reservation_params)
 
 		redirect_to @reservation.room, notice: "Your reservation has been created..."
+	end
+
+	def your_trips
+		@trips = current_user.reservations
+	end
+
+	def your_reservations
+		@rooms = current_user.rooms
 	end
 
 	private
