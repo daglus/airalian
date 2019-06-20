@@ -20,6 +20,7 @@ gem 'toastr-rails'
 
 gem 'omniauth'
 gem 'omniauth-facebook'
+gem 'omniauth-google-oauth2'
 
 gem 'sendgrid-rails', '~> 2.0', '>= 2.0.5'
 

@@ -298,4 +298,5 @@ Devise.setup do |config|
   # config.sign_in_after_change_password = true
 
   config.omniauth :facebook, ENV['FB_APP_ID'], ENV['FB_APP_SECRET'], scope: 'email', info_fields: 'email, name'
+  config.omniauth :google_oauth2, ENV['G_CLIENT_ID'], ENV['G_APP_CLIENT_SECRET']
 end
